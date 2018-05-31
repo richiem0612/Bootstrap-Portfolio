@@ -54,11 +54,27 @@ body {
   }
   
   /* main */
-  
+	
+	#logo {
+		float: left;
+		width: 250px;
+		height: 90px;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 90px;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		background: #4aaaa5;
+	}
+
   #main-container {
 	padding-top: 130px;
 	min-height: calc(100vh - 70px);
-  }
+	}
+	
+
   
   .main-section {
 	float: left;
@@ -148,4 +164,5 @@ body {
 	cursor: pointer;
 	background: #4aaaa5;
 	border: 0 none;
-  }
+	}
+	
